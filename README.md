@@ -92,9 +92,9 @@ Executing startApplication.sh file will run the servers
 In order to check the server running, go to <a href=http://127.0.0.1:8000>http://127.0.0.1:8000</a>
 </br>Mongo-express is running on posrt 8081 on <a href=http://127.0.0.1:8081>http://127.0.0.1:8081</a>
 </br>A execution example can be seen in the folowing screenshots
-<img src="images/example.png" width="500" height="300">
+<img src="images/example.png" >
 </br>If the facebook page has no posts</br>
-<img src="images/noposts.png" width="650" height="300">
+<img src="images/noposts.png" >
 </br>If the given page_id is not a valid facebook page</br>
 <img src="images/notavailablepage.png" >
 <p align="right">(<a href="#top">back to top</a>)</p>
