@@ -96,7 +96,7 @@ In order to check the server running, go to <a href=http://127.0.0.1:8000>http:/
 </br>If the facebook page has no posts</br>
 <img src="images/noposts.png" width="650" height="300">
 </br>If the given page_id is not a valid facebook page</br>
-<img src="images/notavailablepage.png" width="900" height="300">
+<img src="images/notavailablepage.png" >
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
