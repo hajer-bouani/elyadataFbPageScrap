@@ -76,33 +76,23 @@ You should have docker and docker compose installed ont the linux machine as the
   ```sh
   $sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
   $sudo chmod +x /usr/local/bin/docker-compose
-
   ```
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Executing startApplication.sh file will run the servers
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* docker-compose
+  ```sh
+  $ sudo chmod +x startApplication.sh
+  $ ./startApplication.sh
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 
-Executing startApplication.sh file will run the servers
+
