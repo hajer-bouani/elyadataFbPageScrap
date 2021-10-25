@@ -93,10 +93,10 @@ In order to check the server running, go to <a href=http://127.0.0.1:8000>http:/
 </br>Mongo-express is running on posrt 8081 on <a href=http://127.0.0.1:8081>http://127.0.0.1:8081</a>
 </br>A execution example can be seen in the folowing screenshots
 <img src="images/example.png" width="500" height="300">
-</br>If the facebook page has no posts
-<img src="images/noposts.png" width="500" height="300">
-</br>If the given page_id is not a valid facebook page
-<img src="images/notavailablepage.png" width="500" height="300">
+</br>If the facebook page has no posts</br>
+<img src="images/noposts.png" width="650" height="300">
+</br>If the given page_id is not a valid facebook page</br>
+<img src="images/notavailablepage.png" width="900" height="300">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
