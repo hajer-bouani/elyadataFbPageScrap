@@ -26,7 +26,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -62,20 +61,20 @@ Clone this repository to your local envirment
 You should have docker and docker compose installed ont the linux machine as the app wwill run inside docker containers.
 * docker
   ```sh
-  $sudo apt-get remove docker docker-engine docker.io containerd runc
-  $sudo apt-get update
-  $sudo apt-get install \
-  $ ca-certificates \
-  $ curl \
-  $ gnupg \
-  $ lsb-release
-  $curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-  $echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu (lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  $ sudo apt-get remove docker docker-engine docker.io containerd runc
+  $ sudo apt-get update
+  $ sudo apt-get install \
+  $  ca-certificates \ 
+  $  curl \
+  $  gnupg \
+  $  lsb-release
+  $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  $ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu (lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
   ```
 * docker-compose
   ```sh
-  $sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-  $sudo chmod +x /usr/local/bin/docker-compose
+  $ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  $ sudo chmod +x /usr/local/bin/docker-compose
   ```
 
 
@@ -86,13 +85,16 @@ Executing startApplication.sh file will run the servers
 
 * docker-compose
   ```sh
-  $ sudo chmod +x startApplication.sh
-  $ ./startApplication.sh
+  $   sudo chmod +x startApplication.sh
+  $   ./startApplication.sh
   ```
 
+In order to check the server running, go to http://127.0.0.1:8000
+mongo-express is running on posrt 8081 on <a href=http://127.0.0.1:8000>http://127.0.0.1:8000</a>
+<img src="images/example.png" width="500" height="500">
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 
-
+f/*-d1d
